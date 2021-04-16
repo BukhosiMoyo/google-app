@@ -20,7 +20,7 @@ export default function Home() {
 
       {/* Header */}
 
-      <header className="flex w-full p-5 justify-between text-sm text-gray-700">
+      <header className="flex w-full py-3 px-6 justify-between text-sm text-gray-700">
 
         {/* Left */}
         <div className="flex space-x-4 items-center">
@@ -56,9 +56,14 @@ export default function Home() {
         <div className="flex w-full mt-5 hover:shadow-lg
          focus-within:shadow-lg max-w-md rounded-full border 
          border-gray-200 px-5 py-3 items-center sm:max-w-lg lg:max-w-2xl">
-          <SearchIcon className="h-5 mr-3 text-gray-500" />
+          <SearchIcon className="h-4 mr-3 text-gray-500" />
           <input type="text" className="flex-grow focus:outline-none"/>
-          <MicrophoneIcon className="h-5"/>
+          
+          <Image 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png"
+            height={20}
+            width={14} />
+
         </div>
 
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 
